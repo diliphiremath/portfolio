@@ -51,7 +51,7 @@ export function TechnologiesSection() {
 										{tech.items.map((item) => (
 											<div key={item.name} className="group relative flex">
 												<span tabIndex="0" role="img">
-													{item.icon}
+													{item.name}
 												</span>
 												<span
 													className="group-hover:opacity-100 group-focus-within:opacity-100 transition-opacity bg-gray-800 text-sm text-gray-100 rounded-md absolute left-1/2

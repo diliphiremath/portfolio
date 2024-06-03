@@ -25,29 +25,26 @@ export function AboutSection() {
 						}}
 					>
 						<p>
-							My name is Vasile. I successfully graduated Technical University of Moldova, computer
-							science faculty.
+						My name is Dilip. I graduated from KLE Institute of Technology, Hubballi, with a degree in information 
+						science.
 						</p>
 						<p>
-							During my university years, I developed a deep passion for web programming, and I
-							consistently engaged in learning new concepts and techniques in this field.
+							During my last year of college, when we were developing our final project I found a passion
+							in developing softwares and from there onwards started to learn new things and concepts about softwares.
 						</p>
-						<p>So, officially, my programming journey began in 2017 as a WordPress developer.</p>
 						<p className="my-3.5">
-							I enjoy learning technologies that interest me, which is why I dedicated a significant
-							amount of time to working with WordPress.
+							After graduation, I started building web applications with a friend, eventually we started taking projects
+							but we couldn't manage clients properly due to lack of experience so, we started looking out for job.
 						</p>
 						<p>
-							One day, I decided to try something new, and I started learning React. I was so
-							excited to see how fast I can build a website with it, and how easy it is to maintain
-							it. Consequently, I quickly learnt Next.js and I used it to build some company
-							projects working in a team with a backend dev.
+							Started my job career as a MERN stack developer. I always liked to try out new technologies and would
+							contantly explore different parts of software and dig deep into concepts.
 						</p>
 						<p className="my-3.5">
-							In december 2023, I had an opportunity to start working as a React developer for a
-							company with the possibility of transitioning to mobile development. I was skeptical
-							about it at first, but I decided to give it a try, and I don&lsquo;t regret it. Now, I
-							thoroughly enjoy working with Flutter and Dart.
+							I worked in various domains and technologies in a course of my 6+ years of software journey. Started out as Front end 
+							developer, then moved to backend developer also explored Devops. I always like to start a software from scratch and build 
+							a highly scalable system. The thing exicites me is Architecture. I like to make small POC's and come up
+							with good architecture.
 						</p>
 					</div>
 				</div>
