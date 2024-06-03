@@ -9,6 +9,7 @@ export const metadata = { ...AppMetadata };
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
+			<link rel="icon" sizes="76x76" href="favicon.ico" />
 			<body>
 				<ThemeContext>
 					<AppHeader />
