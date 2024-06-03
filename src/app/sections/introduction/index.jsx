@@ -16,10 +16,10 @@ export function WelcomeSection() {
 
 	let [count, setCount] = useState(0);
 	const [text] = useState([
-		"build Flutter apps for Android/iOS",
-		"convert design into modern UI",
-		"build interactive UI using React",
-		"develop websites using Next.js"
+		"deploy app using docker and kubernetes",
+		"build pipelines using cloud and workflows",
+		"build interactive UI using React/Next",
+		"build servers using python/nodejs"
 	]);
 
 	const onClick = (e) => scrollToEl(e);
@@ -52,7 +52,7 @@ export function WelcomeSection() {
 							}}
 						>
 							<p>
-								Hi, I&apos;m <mark>Dilip</mark> a <mark>passionate</mark> software developer.
+								Hi, I&apos;m <mark>Dilip</mark> a <mark>Passionate</mark> software developer.
 							</p>
 						</h1>
 
@@ -100,7 +100,7 @@ export function WelcomeSection() {
 								transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
 							}}
 						>
-							Stick around to see some of my work.
+							{/* Stick around to see some of my work. */}
 						</p>
 						<div
 							ref={ref}
@@ -110,7 +110,7 @@ export function WelcomeSection() {
 								transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
 							}}
 						>
-							<Link
+							{/* <Link
 								href="#projects"
 								onClick={onClick}
 								tabIndex="0"
@@ -118,7 +118,7 @@ export function WelcomeSection() {
 								aria-label="Latest projects"
 							>
 								See my latest projects
-							</Link>
+							</Link> */}
 						</div>
 					</div>
 
