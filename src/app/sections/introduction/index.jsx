@@ -59,7 +59,7 @@ export function WelcomeSection() {
 						<div className="mt-3 relative flex flex-col overflow-hidden">
 							<p
 								ref={ref}
-								className="text-[17px] md:text-2xl transform-none opacity-100"
+								className="text-[16px] md:text-2xl transform-none opacity-100"
 								style={{
 									transform: isInView ? "none" : "translateX(-200px)",
 									opacity: isInView ? 1 : 0,
@@ -102,7 +102,7 @@ export function WelcomeSection() {
 						>
 							{/* Stick around to see some of my work. */}
 						</p>
-						<div
+						{/* <div
 							ref={ref}
 							style={{
 								transform: isInView ? "none" : "translateY(50px)",
@@ -110,7 +110,7 @@ export function WelcomeSection() {
 								transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
 							}}
 						>
-							{/* <Link
+							<Link
 								href="#projects"
 								onClick={onClick}
 								tabIndex="0"
@@ -118,8 +118,8 @@ export function WelcomeSection() {
 								aria-label="Latest projects"
 							>
 								See my latest projects
-							</Link> */}
-						</div>
+							</Link>
+						</div> */}
 					</div>
 
 					{isTabletUp && <WelcomeAnimation />}
@@ -139,7 +139,7 @@ function TextElement({ element }) {
 		<span
 			tabIndex="0"
 			ref={ref}
-			className="text-[17px] md:text-2xl"
+			className="text-[16px] md:text-2xl"
 			style={{
 				transform: isInView ? "none" : "translateX(-200px)",
 				opacity: isInView ? 1 : 0,
