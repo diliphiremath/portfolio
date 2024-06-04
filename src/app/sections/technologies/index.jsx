@@ -35,10 +35,10 @@ export function TechnologiesSection() {
 									ref={stackRef}
 									className="flex flex-col gap-4 flex-1 md:flex-auto"
 									style={{
-										transform: isStackInView
+										transform: isTextInView
 											? "none"
 											: `${index === 0 ? "translateY(250px)" : `translateY(${200 / index}px)`}`,
-										opacity: isStackInView ? 1 : 0,
+										opacity: isTextInView ? 1 : 0,
 										transition: `all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) ${
 											index === 0 ? 0 : 0.5 * index
 										}s`
