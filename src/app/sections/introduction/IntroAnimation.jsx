@@ -3,6 +3,7 @@ import { useInView } from "framer-motion";
 import { useTheme } from "next-themes";
 
 export function WelcomeAnimation() {
+	console.log(profile)
 	const ref = useRef(null);
 	const isInView = useInView(ref, { once: true });
 	const { theme, systemTheme } = useTheme();
@@ -11,14 +12,14 @@ export function WelcomeAnimation() {
 
 	return (
 		<div
-			ref={ref}
-			style={{
-				transform: isInView ? "none" : "translateX(100px)",
-				opacity: isInView ? 1 : 0,
-				transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 1s"
-			}}
+			// ref={ref}
+			// style={{
+			// 	transform: isInView ? "none" : "translateX(100px)",
+			// 	opacity: isInView ? 1 : 0,
+			// 	transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 1s"
+			// }}
 		>
-			<svg
+			{/* <svg
 				className="BgAnimation__svg"
 				viewBox="0 0 602 602"
 				fill="none"
@@ -324,7 +325,8 @@ export function WelcomeAnimation() {
 						<stop offset="1" stopColor={darkThemeColor ? "#fff" : "#000"} stopOpacity="0" />
 					</linearGradient>
 				</defs>
-			</svg>
+			</svg> */}
+			{/* <image src={profile} alt="Logo" /> */}
 		</div>
 	);
 }
