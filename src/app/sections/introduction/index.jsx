@@ -6,6 +6,9 @@ import { LazyMotion, domAnimation, useInView } from "framer-motion";
 import { WelcomeAnimation } from "./IntroAnimation";
 import { useScrollTo } from "../../../hooks";
 import { useMediaQuery } from "../../../utils";
+import Image from 'next/image'
+import profile from "../../../public/profile.png"
+
 
 export function WelcomeSection() {
 	const ref = useRef(null);
@@ -122,7 +125,14 @@ export function WelcomeSection() {
 						</div> */}
 					</div>
 
-					{isTabletUp && <WelcomeAnimation />}
+					{/* {isTabletUp && <WelcomeAnimation />} */}
+					<Image
+					src={profile}
+					width={500}
+					height={300}
+					alt="Picture of the author"
+					priority={true}
+					/>
 				</div>
 			</section>
 		</LazyMotion>
